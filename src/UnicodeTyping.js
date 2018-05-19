@@ -1,5 +1,4 @@
 module.exports = class UnicodeTyping {
-
     constructor(keyEvent, options = {}) {                
         Object.assign(this, {                    
             keyMapping: {
@@ -17,10 +16,10 @@ module.exports = class UnicodeTyping {
     }
 
     getUnicodeKey() {
-        // console.log(keyEvent.keyShortName);
-        // console.log(this.keyMapping[keyEvent.keyShortName]);                                
+        // console.log(this.keyEvent.keyShortName);
+        // console.log(this.keyMapping[this.keyEvent.keyShortName]);
         
-        let keyObject = this.keyMapping[keyEvent.keyShortName];                
+        let keyObject = this.keyMapping[this.keyEvent.keyShortName];
 
         if (keyObject) {
             if (this.isCtrlAltShift()) {
