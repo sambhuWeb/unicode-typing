@@ -1,0 +1,25 @@
+{
+  "name": "unicode-typing",
+  "version": "1.0.0",
+  "description": "Returns mapped unicode key",
+  "main": "lib/UnicodeTyping.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel --source-maps -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambhuWeb/unicode-typing.git"
+  },
+  "author": "Sambhu Raj Singh <sambhu.raj.singh@gmail.com> (node.howtofixthis.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sambhuWeb/unicode-typing/issues"
+  },
+  "homepage": "https://github.com/sambhuWeb/unicode-typing#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}

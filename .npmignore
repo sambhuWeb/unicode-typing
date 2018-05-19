@@ -1,0 +1,9 @@
+#.npmignoe has the same function as the .gitignore file but defines everything we want to exclude in our published package.
+#Here we want to ignore babel config and source files
+#We, want to include, the lib directory as this contains the main files of your package
+
+#Therefore, to ignore
+src
+.babelrc
+
+#Note: NPM uses the .gitignore file if there is no .npmignore. If there is an .npmignore, then the rule in .gitignore are skipped
