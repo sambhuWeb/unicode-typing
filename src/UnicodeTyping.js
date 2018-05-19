@@ -15,10 +15,7 @@ module.exports = class UnicodeTyping {
         this.keyEvent = keyEvent;
     }
 
-    getUnicodeKey() {
-        // console.log(this.keyEvent.keyShortName);
-        // console.log(this.keyMapping[this.keyEvent.keyShortName]);
-        
+    getUnicodeKey() {        
         let keyObject = this.keyMapping[this.keyEvent.keyShortName];
 
         if (keyObject) {
