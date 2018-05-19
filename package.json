@@ -1,6 +1,6 @@
 {
   "name": "unicode-typing",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Returns mapped unicode key",
   "main": "lib/UnicodeTyping.js",
   "scripts": {
