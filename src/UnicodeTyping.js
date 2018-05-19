@@ -1,4 +1,4 @@
-class UnicodeTyping {
+module.exports = class UnicodeTyping {
 
     constructor(keyEvent, options = {}) {                
         Object.assign(this, {                    
